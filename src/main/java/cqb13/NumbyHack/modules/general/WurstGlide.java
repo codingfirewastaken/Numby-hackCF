@@ -18,8 +18,8 @@ public class WurstGlide extends Module {
             .name("fall-speed")
             .description("Fall speed.")
             .defaultValue(0.125)
-            .min(0.005)
-            .sliderRange(0.005, 0.25)
+            .min(0)
+            .sliderRange(0, 0.25)
             .build()
     );
 
